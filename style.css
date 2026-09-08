@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    margin: 30px;
+    justify-content: space-between;
+    background-color: antiquewhite;
+}
+
+img{
+    height: 320px;
+    border: 2px solid  grey;
+    border-radius: 360px; background-color: rgb(18, 228, 228);
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 20px;
+
+}
+.card1{
+    border: 2px solid ;
+    text-align: center;
+    border-radius: 20px;
+}
+.cards img{
+    width: 150px;
+    height: 150px;
+
+}
+.cards button{
+    border: 30px;
+    border-radius: 10px;
+} 
+.card1 :hover{
+color: greenyellow;
+background-color: magenta;
+}
