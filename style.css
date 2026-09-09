@@ -34,3 +34,27 @@ img{
 color: greenyellow;
 background-color: magenta;
 }
+.categories{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+.category img{
+    width: 140px;
+    height: 140px;
+    
+
+}
+.categories button{
+    border: 30px;
+    border: radius 10px; 
+}
+.category :hover{
+    background-color: aqua;
+     color: aquamarine;
+}
+.category{
+    border: 2px solid ;
+    border-radius: 20px;
+}
